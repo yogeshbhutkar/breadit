@@ -146,7 +146,7 @@ export default function Editor({ subredditId }: { subredditId: string }) {
 
       setTimeout(() => {
         _titleRef?.current?.focus();
-      }, 0);
+      }, 100);
     };
 
     if (isMounted) {
