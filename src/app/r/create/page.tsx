@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { useRouter } from "next/navigation";
@@ -10,7 +10,7 @@ import { CreateSubredditPayload } from "@/lib/validators/subreddit";
 import { toast } from "@/hooks/use-toast";
 import { useCustomToast } from "@/hooks/use-custom-toast";
 
-export default function page() {
+export default function Page() {
   const [input, setInput] = useState<string>("");
   const router = useRouter();
   const { loginToast } = useCustomToast();
