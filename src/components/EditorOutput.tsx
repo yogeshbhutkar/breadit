@@ -22,7 +22,7 @@ const style = {
 
 const renderers = {
   image: CustomImageRenderer,
-  //   code: CustomCodeRenderer,
+  code: CustomCodeRenderer,
 };
 
 const EditorOutput: FC<EditorOutputProps> = ({
